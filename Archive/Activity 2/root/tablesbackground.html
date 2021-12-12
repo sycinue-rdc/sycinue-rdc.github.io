@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table Background</title>
+        <link rel="icon" type="image/x-icon" href="ico/document.svg">
+        <style>
+            #hd {color: firebrick;}
+            #pd {color: black;}
+        </style>
+    </head>
+    <body bgcolor="gray">
+        <table border="1" bordercolor="crimson" bgcolor="lightgray">
+            <tr id="hd">
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr id="pd">
+                <td rowspan="2">Row 1 Cell</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr id="pd">
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr id="pd">
+                <td colspan="3">Row 3 Cell 1</td>
+            </tr>
+        </table>
+    </body>
+</html>
