@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sycinue-rdc
 - 👀 I’m interested in Computer Programming
-- 🌱 I’m currently learning Information & Communications Technology
+- 🌱 I’m currently learning HTML, CSS & JavaScript
 - 📫 Reach me at sanchezeunicys.rdc@gmail.com
 - 📂 Check out my works archive at https://sycinue-rdc.github.io/syinue/Archive/
 
