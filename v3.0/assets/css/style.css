@@ -1,5 +1,23 @@
 #header {
     color: rgb(0, 132, 255);
+    text-align: center;
+}
+
+#name {
+    color: rgb(223, 71, 104);
+}
+
+#name2 {
+    color: rgb(0, 132, 255);
+}
+
+#logo {
+    align-self: center;
+    position: fixed;
+    width: 5%;
+    height: 50px;
+    left: 31%;
+    z-index: -100;
 }
 
 #particles {
@@ -8,6 +26,16 @@
     width: 100%;
     height: 100vh;
 }
+
+#footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef6c;
+    text-align: center;
+  }
 
 a:link { 
     text-decoration: none; 
@@ -22,8 +50,8 @@ a:visited {
 
 
 a:hover {
-     text-decoration: wavy; 
-     color: rgba(67, 159, 245, 0.856);
+     text-decoration:dashed; 
+     color: rgba(64, 97, 247, 0.795);
 }
 
 
