@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body id="bg">
+<body>
+    <h1 id="header">ユニシス</a></h1>
             <ul>
                 <li>👋 Hi, ’m Eunicys Sanchez.</li>
                 <li>👀 I’m interested in Computer Programming.</li>
@@ -15,6 +9,4 @@
                 <li>🔗 Link to my <a href="https://www.facebook.com/sycinue.rdc/" target="_blank">Social</a> account.</li>
                 <li>📚 Link to my <a href="https://github.com/sycinue-rdc/sycinue" target="_blank">Github</a> Repository.</li>
             </ul>
-    </div>
 </body>
-</html>
