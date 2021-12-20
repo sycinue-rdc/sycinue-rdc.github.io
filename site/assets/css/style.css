@@ -100,6 +100,31 @@ a:hover .folder {
     content: url(../ico/rootopen.png);
 }
 
+.invalid {
+    text-decoration:line-through;
+    color: rgb(240, 63, 63);
+}
+
+.invalid:link { 
+    text-decoration:line-through;
+    color: rgb(240, 63, 63);
+}
+
+.invalid:hover { 
+    text-decoration:none;
+    color: rgba(240, 63, 63, 0.514);
+}
+
+.invalid:active {
+    text-decoration:line-through;
+    color: rgb(240, 63, 63);
+}
+
+.invalid:visited {
+    text-decoration:line-through;
+    color: rgb(240, 63, 63);
+}
+
 .back {
     height: 23px;
     width: 25px;
