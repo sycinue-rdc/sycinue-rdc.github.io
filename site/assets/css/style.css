@@ -36,30 +36,116 @@
     right: 0;
     bottom: 0;
     left: 0;
-    font-size: medium;
+    font-size: 95%;
+    font-family: 'Courier New', Courier, monospace;
     padding: 5px;
     background-color: #00000011;
     text-align: center;
   }
 
+.icon {
+    height: 23px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
 .folder {
     height: 23px;
     width: 25px;
-    position: relative;float: left;
+    position: relative;
+    float: left;
+    margin-right: 5px;
 }
 
 a:hover .folder {
-    content: url(../ico/folderopen.svg);
+    content: url(../ico/folderopen.png);
 }
 
 .root {
     height: 23px;
     width: 25px;
-    position: relative;float: left;
+    position: relative;
+    float: left;
+    margin-right: 5px;
 }
 
-a:hover .root {
-    content: url(../ico/rootopen.svg);
+.roottext {
+    text-decoration: none; 
+    color: #000;
+}
+
+.roottext:link { 
+    text-decoration: none; 
+    color: #000;
+}
+
+.roottext:hover { 
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.roottext:active {
+    text-decoration: none; 
+    color: #000;
+}
+
+.roottext:visited {
+    text-decoration: none; 
+    color: #000;
+}
+
+.roottext:hover .root {
+    content: url(../ico/rootopen.png);
+}
+
+.back {
+    height: 23px;
+    width: 25px;
+    position: relative;float: left;
+    margin-right: 5px;
+}
+
+a:hover .back {
+    content: url(../ico/backopen.png);
+}
+
+.download {
+    text-decoration: none; 
+    color: #000;
+}
+
+.download:link { 
+    text-decoration: none; 
+    color: #000;
+}
+
+.download:hover { 
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.download:active {
+    text-decoration: none; 
+    color: #000;
+}
+
+.download:visited {
+    text-decoration: none; 
+    color: #000;
+}
+
+.get {
+    height: 23px;
+    width: 25px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+a:hover .get {
+    content: url(../ico/download1.png);
 }
 
 a:link { 
