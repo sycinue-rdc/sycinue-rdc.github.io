@@ -1,6 +1,5 @@
 <h1>ユニシス</h1>
 
-I'm Eunicys. ユニシス。
 - 👀 I’m interested in Computer Programming.
 - 🌱 I’m currently Learning JavaScript, TypeScript & Python.
 - 📫 Reach me at <a href="mailto:sanchezeunicys.rdc@gmail.com">sanchezeunicys.rdc@gmail.com</a>
