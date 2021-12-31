@@ -1,7 +1,7 @@
 <body>
     <h1 id="header">ユニシス</a></h1>
             <ul>
-                <li>👋 Hi, ’m Eunicys Sanchez.</li>
+                <li>👋 Hi, I’m Eunicys Sanchez.</li>
                 <li>👀 I’m interested in Computer Programming.</li>
                 <li>🌱 I’m currently Learning JavaScript, TypeScript & Python.</li>
                 <li>📫 Reach me at <a href="mailto:sanchezeunicys.rdc@gmail.com">sanchezeunicys.rdc@gmail.com</a></li>
