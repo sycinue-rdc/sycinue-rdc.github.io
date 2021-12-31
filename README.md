@@ -9,7 +9,6 @@
   [![OS:KaliLinux](https://img.shields.io/badge/OS-KaliLinux-blue?style=flat-square&logo=kali-linux)](https://www.kali.org)
   [![OS:Windows11](https://img.shields.io/badge/OS-Windows11-blue?style=flat-square&logo=microsoft)](https://www.microsoft.com/windows/windows-11)
   [![Editor:VSCode](https://img.shields.io/badge/Editor-VSCode-blue?style=flat-square&logo=visual%20studio%20code)](https://code.visualstudio.com/)
-  [![Facebook:ユニシス](https://img.shields.io/badge/Facebook-%E3%83%A6%E3%83%8B%E3%82%B7%E3%82%B9-lightblue?style=flat-square&logo=facebook)](https://www.facebook.com/sycinue.rdc/)
   
 ---  	
 <h1>
