@@ -22,7 +22,13 @@
     color: rgb(255, 255, 255);
   }
 
+#texts {
+    color: #000;
+}
 
+#headers {
+    color: rgb(0, 132, 255);
+}
 
 #center {
     text-align: center;
