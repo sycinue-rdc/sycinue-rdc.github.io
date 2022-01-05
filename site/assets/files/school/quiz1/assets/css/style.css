@@ -1,0 +1,102 @@
+body {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+}
+
+table {
+    width: 100%;
+}
+
+#tb1 {
+    border: 1px solid skyblue;
+}
+#tb1 tr {
+    border: 1px solid skyblue;
+}
+
+#tb1 td {
+    border: 1px solid skyblue;
+}
+
+#tb2 {
+    border: 1px solid red;
+}
+#tb2 tr {
+    border: 1px solid red;
+}
+
+#tb2 td {
+    border: 1px solid red;
+}
+
+#tb3 {
+    border: 1px solid springgreen;
+}
+#tb3 tr {
+    border: 1px solid springgreen;
+}
+
+#tb3 td {
+    border: 1px solid springgreen;
+    padding: 5px;
+}
+
+#c1 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: tomato;
+}
+
+#c2 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: dodgerblue;
+}
+
+#c3 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: orange;
+}
+
+#c4 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color:  #b2beb5;
+}
+
+#c5 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: seagreen;
+}
+
+#c6 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: violet;
+}
+
+#c7 {
+    font-size: large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: slateblue;
+}

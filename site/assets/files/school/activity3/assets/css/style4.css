@@ -20,6 +20,7 @@ table#tb tr:nth-child(odd) {
     background-color: #fff;
 }
 
+
 #tbhr th {
     background-color: black;
     color: white;
