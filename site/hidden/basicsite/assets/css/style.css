@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: rgba(240, 248, 255, 0.808);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 220, 110);
+}
+
+a:hover {
+    color: rgba(20, 220, 110, 0.514);
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+}
+
+#imgs {
+    width: 50%;
+    height: 50%; 
+}
+
+#tb0 {
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 5px;
+    background-color: aquamarine;
+}
+
+#tb0 table {
+    border: 1px solid black;
+}
+
+#tb0 tr {
+    border: 1px solid black;
+}
+
+#tb0 th {
+    border: 1px solid black;
+}
+
+#tb0 td {
+    border: 1px solid black;
+}

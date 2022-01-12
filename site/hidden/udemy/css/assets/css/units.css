@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+/* 
+    em - RELATIVE depends on parent
+    1em = 16px default browser style;
+    1em = base value
+
+    rem - RELATIVE depends on root
+    1rem = 16px default browser style;
+*/
+
+
+.parent {
+    font-size: 30px;
+}
+
+/* EM */
+
+.relative1 {
+    font-size: 2em;
+}
+
+.absolute1 {
+    font-size: 32px;
+}
+
+/* REM */
+
+
+.relative2 {
+    font-size: 2rem;
+}
+
+.absolute2 {
+    font-size: 32px;
+}
+
+/* font-size, width, height, pixels */
+
+.h1 {
+    font-size: 60px;
+    width: 400px;
+    height: 300px;
+    background: skyblue;
+}
+
+/* Percent Values - Relative */
+
+.outer {
+    width: 400px;
+    height: 200px;
+    background: blue;
+}
+
+.inner {
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+
+/* 
+    vh - hieght - percent of the screen
+    vw - width - percent of the screen
+*/
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+
+/* default browser styles */
+
+.h2 {
+    color: red;
+    font-size: 60px;
+}
+
+/* 
+    calc()
+    perform math operations + - * /
+    mix and match values
+*/
+
+.navbar {
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner1 {
+    background: red;
+    min-height: calc(100vh - 100px);
+}
