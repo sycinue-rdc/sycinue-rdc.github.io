@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユニシス</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="fav.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/text.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <!-- JavaScript -->
+
+
+    <!-- Script -->
+    <script type="application/ld+json">
+        {"headline":"sycinue-rdc","description":"Profile &amp; Work Archive","url":"https://sycinue-rdc.github.io/sycinue-rdc/","@type":"WebSite","name":"sycinue-rdc","@context":"https://schema.org"}
+    </script>
+
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+        <h1 class="animate__animated animate__fadeInDown"><span id="headers">サンチェス ユニシス</span></h1>
+      
+        <p class="animate__animated animate__fadeInDown">Profile &amp; Project Archive</p>
+
+        <p class="view animate__animated animate__fadeInUp"><span id="texts">Link to my GitHub Profile</span><br><small><a href="https://github.com/sycinue-rdc/" target="_blank"><img src="assets/svg/GitHub-sycinuerdc-lightblue.svg" alt="OS:KaliLinux"></a></small></p>
+          
+        <p class="view animate__animated animate__fadeInUp"><span id="texts">Link to my Social Accounts</span><br><small><a href="https://www.facebook.com/sycinue.rdc/" target="_blank"><img src="assets/svg/Facebook-sycinue.svg" alt="Facebook"></a> <a href="https://www.instagram.com/sycinue_niinii/" target="_blank"><img src="assets/svg/Instagram-sycinue_niinii.svg" alt="Instagram"></a> <a href="https://twitter.com/24_EGSD/" target="_blank"><img src="assets/svg/Twitter-@24EGSD.svg" alt="Twitter"></a></small></p>
+
+        <p id="center" class="view animate__animated animate__fadeInUp">
+            <a href="https://www.kali.org/" target="_blank"><img src="assets/svg/OS-KaliLinux-blue.svg" alt="OS:KaliLinux"></a>
+            <a href="https://www.microsoft.com/windows/windows-11" target="_blank"><img src="assets/svg/OS-Windows_11-blue.svg" alt="OS:Windows11"></a>
+            <a href="https://code.visualstudio.com/" target="_blank"><img src="assets/svg/Editor-VSCode-blue.svg" alt="Editor:VSCode"></a>
+            </p>
+
+        
+    </header>
+
+        <section>
+  
+        <h1 id="center" class="animate__animated animate__fadeInDown">Hi, I am <span id="blue">Eunicys</span>.</h1>
+
+
+<div id="center">
+    <h4 class="animate__animated animate__fadeInDown">
+        A Information Communication Technology Student.
+    </h4>
+    <div class="animate__animated animate__fadeIn">
+        <p>I am currently a Senior High School ICT Student.<br>I'm Studying at <a href="https://www.facebook.com/MISTSanRafaelOfficial" target="_blank">Microlink Institute of Science and Technology</a></p>
+        <p>I have a passion for coding and playing instruments.<br>I believe in working smart instead of working hard, in one way by applying CS theory to make the stuff I do easier.</p>
+        <p>My journey into computer science started with my early appreciation for game development in elementary.  It then got followed with some dabbling into programming in high school.</p>
+    </div>
+</div>
+  <br>
+  <hr>
+  <br><br>
+  <div>
+      <h2 id="center" class="animate__animated animate__fadeInDown">Away from the keyboard</span></h2>
+
+      <p class="animate__animated animate__fadeIn">Outside of computer science and software development, I love watching Japanese Animations. I play the piano, ukelele, guitar & drums myself. I started playing instruments at the age of 10.<br>I also love reading Japanese manga & books that are talking about history.</p>
+  </div>
+  
+  
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="view animate__animated animate__fadeInDown">
+        <p><a href="archive/" class="roottext"><img class="root" src="assets/ico/root.png" alt="icon">Archive</a></p>
+          
+        <p>This site is maintained by <a href="">ユニシス</a>.</p>
+          
+        <p><small id="texts">Copyright © 2022 ユニシス. All Rights Reserved.</small></p>
+    </footer>
+
+      </div>
+
+      <!-- JavaScript -->
+      <script src="assets/js/scale.fix.js"></script>
+    
+    
+</body>
+</html>
