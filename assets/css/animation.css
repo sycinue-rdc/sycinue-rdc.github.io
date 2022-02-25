@@ -1,0 +1,46 @@
+@keyframes typewriter1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
+}
+
+@keyframes typewriter2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 28.5em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        transform: translate3d(0, -150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
