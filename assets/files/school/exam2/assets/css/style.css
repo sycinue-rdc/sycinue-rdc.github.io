@@ -1,0 +1,74 @@
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.col1 {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col2 {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* .col {
+    font-size: 20px;
+} */
+
+#logo1 {
+    height: 125px;
+
+}
+
+#logo2 {
+    height: 125px;
+}
+
+#hdttl {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#subttl {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hdr {
+    background-color: orange;
+    text-transform: uppercase;
+}
+
+#subjttl {
+    text-transform: uppercase;
+}
+
+#subacr {
+    text-transform: capitalize;
+}
+
+#ttl {
+    text-align: right;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+#num {
+    text-align: center;
+}
+
+#ttlnum {
+    text-align: center;
+    font-weight: bold;
+}
