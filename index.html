@@ -4,71 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="fav.png">
-    
-    <!-- Title -->
     <title>シチニュ</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Javascript -->
-    
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="wrapper">
-    <div class="page1" id="sycinue">
-        <header class="sheader">
-            <nav>
-                <div class="header_logo">
-                    <a href="#" id="logo-link"><span class="amsterdam">Sycinue</span><img src="assets/logo/logo.png" alt="" srcset="" id="main-logo-small"></a>
-                </div>
-                <div class="header_links">
-                    <ul class="nav_links">
-                        <li class="nav_link"><a href="archive/">Archive</a></li>
-                        <li class="nav_link"><a href="#about">About</a></li>
-                    </ul>
-                </div>
+    <div id="particles"></div>
+
+    <header>
+        <div class="container">
+            <ul class="header-logo">
+                <li><a href=""><h1>Sycinue</h1><img src="favicon.ico" alt="logo"></a></li>
+            </ul>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="archive/">Archive</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
             </nav>
-        </header>
-        <section class="main">
-            <img src="assets/imgs/futaba.gif" alt="" srcset="" class="logo">
-            <span class="jap">シチニュ</span>
-            <p class="typo">Profile & Work Archive.</p>
-            <ul>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="assets/img/futaba.gif" alt="futaba rio" class="prof-img">
+            <h1>シチニュ</h1>
+            <div class="loader" id="loader"></div>
+            <!-- <p>Profile &amp; Archive</p> -->
+            <ul class="hero-links">
                 <li><a target="_blank" href="https://www.facebook.com/sycinue.rdc/"><i class="fab fa-facebook"></i></a></li>
                 <li><a target="_blank" href="https://www.instagram.com/sycinue_niinii/"><i class="fab fa-instagram"></i></a></li>
                 <li><a target="_blank" href="https://twitter.com/24_EGSD/"><i class="fab fa-twitter"></i></a></li>
                 <li><a target="_blank" href="https://github.com/sycinue-rdc"><i class="fab fa-github"></i></a></li>
             </ul>
-            <p>
-                <a target="_blank" href="https://www.kali.org/"><img src="assets/icons/OS-KaliLinux-blue.svg" alt=""></a>
-                <a target="_blank" href="https://www.microsoft.com/windows/windows-11"><img src="assets/icons/OS-Windows_11-blue.svg" alt=""></a>
-                <a target="_blank" href="https://code.visualstudio.com/"><img src="assets/icons/Editor-VSCode-blue.svg" alt=""></a>
-            </p>
-        </section>
-    </div>
-    <div class="page2"id="about">
-        <section class="sub">
-            <br><br>
-            <h1>Hi, I am <a href="#sycinue" id="logo-link"><span class="amsterdam"> Sycinue</span><img src="assets/logo/logo.png" alt="" id="main-logo"></a></h1><br>
-            <h4>A Information Communication Technology Student.</h4><br>
-            <p>I am currently a Senior High School ICT Student. <br>I'm Studying at <a target="_blank" href="https://www.facebook.com/MISTSanRafaelOfficial">Microlink Institute of Science and Technology</a>.</p><br>
-            <p>I have a passion for coding and playing instruments. <br>I believe in working smart instead of working hard, in one way by applying <br> CS Theory to make the stuff I do easier.</p><br>
-            <p>My journey into computer science started with my early <br> appreciation for game development in elementary. It then got followed <br> with some dabbling into programming in high school.</p><br><br><br>
-            <h1>Away from the Keyboard</h1><br>
-            <p>Outside of computer science and software development, I love watching Japanese Animations. <br> I play the piano, ukelele, guitar & drums myself. I started playing instruments at the  <br>age of 10.
-                I also love reading Japanese manga & books that are talking about history.</p><br><br><br><br><br><br><br>
-        </section>        
-    </div>
+            <ul class="hero-sub-links">
+                <li><a target="_blank" href="https://www.kali.org/"><img src="assets/img/OS-KaliLinux-blue.svg" alt=""></a></li>
+                <li><a target="_blank" href="https://www.microsoft.com/windows/windows-11"><img src="assets/img/OS-Windows_11-blue.svg" alt=""></a></li>
+                <li><a target="_blank" href="https://code.visualstudio.com/"><img src="assets/img/Editor-VSCode-blue.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </section>
 
-    <!-- Footer -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Hi, I am Eunicys</h2>
+            <h3>A Information Communication Technology Student.</h3>
+            <p>I am currently a Senior High School ICT Student. <br> I'm Studying at<a target="_blank" href="https://www.facebook.com/MISTSanRafaelOfficial">Microlink Institute of Science and Technology</a>.</p>
+            <p>I have a passion for coding and playing instruments. <br> I believe in working smart instead of working hard, in one way by applying CS Theory to make the stuff I do easier.</p>
+            <p>My journey into computer science started with my early appreciation for game development in elementary. It then got followed with some dabbling into programming in high school.</p>
+            <br><br>
+            <h2>Away from the Keyboard</h2>
+            <p>Outside of computer science and software development, I love watching Japanese Animations. I play the piano, ukelele, guitar & drums myself. I started playing instruments at the age of 10. I also love reading Japanese manga & books that are talking about history.</p>
+        </div>
+    </section>
+
     <footer>
-        <small><p>Copyright © 2022 ユニシス. All Rights Reserved.</p></small>  
+        <p><small>&copy; 2022 ユニシス. All Rights Reserved.</small></p>
     </footer>
-</div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/part-conf.js"></script>
+    <script src="assets/js/writer.js"></script>
 </body>
 </html>
