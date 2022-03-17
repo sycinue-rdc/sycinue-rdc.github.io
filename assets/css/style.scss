@@ -1,0 +1,233 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('');
+
+// Fonts
+@font-face {
+    font-family: amsterdam;
+    src: url('../font/Amsterdam\ 400.ttf');
+}
+
+@font-face {
+    font-family: code;
+    src: url('../font/CODE\ Light.otf');
+}
+
+@font-face {
+    font-family: yumincho;
+    src: url('../font/yumin.ttf');
+}
+
+*, *::backdrop, *::after {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #14151bf2;
+    color: white;
+}
+
+#particles {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -9999;
+    pointer-events: none;
+}
+
+header {
+    top: 0;
+    margin-top: 2.5em;
+    position: absolute;
+    width: 100%;
+
+    .container {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+        ul {
+            list-style-type: none;
+        }
+
+        .header-logo {
+            flex: 50%
+        }
+
+        a {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+
+            h1 {
+                font-family: amsterdam;
+                font-size: 1.2em; 
+            }
+
+            img {
+                filter: brightness(100);
+                height: 52px;
+                margin-left: .2em;
+            }
+        }
+
+        nav {
+            flex: 50%;
+            display: flex;
+            justify-content: center;
+
+
+            li {
+                float: left;
+                margin-left: .5em;
+                margin-right: .5em;
+                
+
+                a {
+                    color: rgb(149, 162, 185);
+                    transition: color 1s ease;
+                    font-family: hack;
+                    padding-top: 1.2em;
+                }
+
+                a:hover {
+                    color: white;
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+}
+
+.hero {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    // background-color: rgba(240, 248, 255, 0.13);
+    height: 100vh;
+
+    .container{
+        margin-top: 15em;
+        margin-left: 5em;
+        margin-right: 5em;
+        line-height: 2.5em;
+        
+    }
+    .prof-img {
+        height: 200px;
+        width: 200px;
+        border: 1em solid;
+        border-color: rgba(134, 134, 134, 0.1);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+
+    h1 {
+        font-family: yumincho;
+        font-size: 35px;
+    }
+
+    p {
+        font-family: code;
+        letter-spacing: .3em;
+    }
+
+    .hero-links {
+        font-size: 25px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        color: rgb(149, 162, 185);
+        transition: color 1s ease;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    a img {
+        transition: filter 1s ease;
+        filter: brightness(0.8);
+    }
+
+    a img:hover {
+        filter: brightness(1.2);
+    }
+}
+
+.about {
+    height: 100%;
+    // background-color: rgba(240, 248, 255, 0.13);
+    .container {
+        text-align: center;
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        
+        h2, h3, p {
+            padding: .5em;
+        }
+
+        h2 {
+            font-family: code;
+            font-size: 30px;
+            letter-spacing: .2em;
+        }
+
+        h3 {
+            font-family: hack;
+        }
+
+        p {
+            font-family: code;
+            letter-spacing: .2em;
+        }
+
+        a {
+            color: rgb(149, 162, 185);
+            transition: color 1s ease;
+            margin-left: .5em;
+            margin-right: .5em;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            color: white;
+        }
+    }
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.13);
+    text-align: center;
+}
+
+// Writer.js
+.loader {
+    font-family: code;
+    letter-spacing: .3em;
+    &:after {
+        content: '_';
+    }
+}

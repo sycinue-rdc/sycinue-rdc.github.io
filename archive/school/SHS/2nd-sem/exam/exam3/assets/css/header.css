@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  scroll-behavior: smooth;
+  background-color: #121212;
+}
+
+header {
+  padding-top: 1em;
+}
+
+header .container h1 {
+  text-transform: capitalize;
+  text-align: center;
+  color: #b6b6b6;
+}
+
+header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+header .container nav li {
+  padding: .5em;
+}
+
+header .container nav a {
+  text-decoration: none;
+  color: #757b85;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+header .container nav a:hover {
+  color: #a78b30;
+}
+/*# sourceMappingURL=header.css.map */
