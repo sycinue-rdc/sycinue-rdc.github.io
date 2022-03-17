@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript changes Attributes</title>
+</head>
+<body>
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "assets/img/bulboff.gif"
+            } else {
+                pic = "assets/img/bulbon.gif"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+
+    <img src="assets/img/bulboff.gif" alt="" id="myImage" width="100" height="180">
+
+    <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+</body>
+</html>
