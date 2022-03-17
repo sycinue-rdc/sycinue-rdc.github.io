@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    scroll-behavior: smooth;
+    background-color: #121212;
+}
+
+header {
+    padding-top: 1em;
+    .container {
+
+        h1 {
+            text-transform: capitalize;
+            text-align: center;
+            color: #b6b6b6;
+        }
+
+        nav {
+
+
+            ul {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                list-style-type: none;
+                padding: 0;
+                text-transform: uppercase;
+            }
+
+            li {
+                padding: .5em;
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(117, 123, 133);
+                transition: color 1s ease;
+            }
+
+            a:hover {
+                color: rgb(167, 139, 48);
+            }
+        }
+    }
+}

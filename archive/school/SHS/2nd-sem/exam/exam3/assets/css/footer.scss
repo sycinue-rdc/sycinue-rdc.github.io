@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #ADADAD;
+}
+
+.jumping1 {
+    // display: block;
+    height: 7.4em;
+    float: left;
+}
+
+.jumping2 {
+    // display: block;
+    height: 7.4em;
+    float: right;
+}
+
+.mid {
+    height: 7.4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
