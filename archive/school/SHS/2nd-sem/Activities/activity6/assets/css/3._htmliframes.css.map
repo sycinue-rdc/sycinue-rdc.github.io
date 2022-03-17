@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACnB",
-    "sources": [
-        "3._htmliframes.scss"
-    ],
-    "names": [],
-    "file": "3._htmliframes.css"
-}
