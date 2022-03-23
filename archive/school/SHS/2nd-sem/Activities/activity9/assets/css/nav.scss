@@ -1,0 +1,51 @@
+@font-face {
+    font-family: yumincho;
+    src: url('../font/yumin.ttf');
+}
+
+*,*::before,*::after {
+    scroll-behavior: smooth;   
+}
+
+body {
+    background-color: #14151bf2;
+    
+}
+
+img {
+    height: 130px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    display: block;
+    border: 1em solid;
+    border-color: rgba(134, 134, 134, 0.1);
+    border-radius: 50%;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: yumincho;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    li {
+        margin-bottom: .5em;
+        a {
+            color: rgb(149, 162, 185);
+            transition: color 1s ease;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        a:hover {
+            color: rgb(182, 182, 11);
+        }
+    }
+}

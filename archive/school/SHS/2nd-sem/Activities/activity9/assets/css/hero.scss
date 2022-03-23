@@ -1,0 +1,19 @@
+*,*::before,*::after {
+    scroll-behavior: smooth;   
+}
+
+body {
+    background-color: #BCB9BC;
+}
+
+.left {
+    position: absolute;
+    bottom: 0;
+}
+.right {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+    transform: rotateY(180deg);
+}

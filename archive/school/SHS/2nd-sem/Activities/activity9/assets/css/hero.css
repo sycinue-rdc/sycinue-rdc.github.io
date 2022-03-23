@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #BCB9BC;
+}
+
+.left {
+  position: absolute;
+  bottom: 0;
+}
+
+.right {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.mid {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=hero.css.map */
