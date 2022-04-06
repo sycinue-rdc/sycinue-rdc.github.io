@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depending on Browser Width</title>
+</head>
+<body>
+    <h2>Show Different Images Depending on Browser Width</h2>
+    <p>Resize the browser width and the image will change at 600px and 1500px</p>
+
+    <picture>
+        <source srcset="assets/img/inabakumori.jpg" media="(max-width: 600px)">
+        <source srcset="assets/img/inabakumori.jpg" media="(max-width: 1500px)">
+        <img src="assets/img/inabakumori.jpg" alt="inabakumori" style="width: auto;">
+    </picture>
+</body>
+</html>
