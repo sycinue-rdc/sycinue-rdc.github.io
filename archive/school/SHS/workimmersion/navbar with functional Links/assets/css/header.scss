@@ -1,0 +1,98 @@
+@font-face {
+    font-family: amsterdam;
+    src: url('../fonts/Amsterdam\ 400.ttf');
+}
+
+@font-face {
+    font-family: code-b;
+    src: url('../fonts/CODE\ Bold.otf');
+}
+
+@font-face {
+    font-family: yumincho;
+    src: url('../fonts/yumin.ttf');
+}
+
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.911)
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.500);
+    transition: color 1s ease;
+}
+
+a:hover {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    li {
+        list-style-type: none;
+    }
+
+    .link-mid {
+        width: 219.422px;
+        font-family: yumincho;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .nav-links {
+
+        letter-spacing: 2px;
+
+        a {
+            font-family: code-b;
+            font-size: 18px;
+        }
+
+        ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+            li {
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    .header-logo {
+        width: 219.422px;
+        
+        a {
+            font-family: amsterdam;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        a:hover {
+            color: rgba(255, 255, 255, 0.500);
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            margin-left: 5px;
+        }
+    }
+}

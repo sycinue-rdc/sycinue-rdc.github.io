@@ -1,0 +1,57 @@
+@font-face {
+    font-family: code-b;
+    src: url('../fonts/CODE\ Bold.otf');
+}
+
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #16161a;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.400);
+
+    .header-logo img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 5px solid #3b3d4e93;
+        cursor: pointer;
+}
+
+    .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style-type: none;
+        
+        li {
+            padding: 5px 12px;
+        }
+
+        a {
+            outline: none;
+            text-decoration: none;
+            color: #a6a8b8be;
+            font-size: 18px;
+            font-family: code-b;
+            transition: color 1s ease;
+            letter-spacing: 2px;
+        }
+
+        a:hover {
+            color: white;
+        }
+    }
+}
+
