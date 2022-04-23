@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  padding: 0 20px 0 20px;
+}
+
+.header {
+  background-color: #5ec05e;
+  color: white;
+}
+
+.header h1 {
+  padding-top: 0.67em;
+}
+
+.header p {
+  padding: 1em 0 1em 0;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero .sections {
+  padding: 20px 0 20px 0;
+  margin: 0 7px 0 7px;
+}
+
+.hero .sections p {
+  padding: 1em 0 1em 0;
+}
+
+@media only screen and (max-width: 620px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

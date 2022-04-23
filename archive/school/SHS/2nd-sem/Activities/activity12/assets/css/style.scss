@@ -1,0 +1,46 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    padding: 0 20px 0 20px;
+}
+
+.header {
+    background-color: rgb(94, 192, 94);
+    color: white;
+
+    h1 {
+        padding-top: 0.67em;
+    }
+
+    p {
+        padding: 1em 0 1em 0;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+
+    .sections {
+        padding: 20px 0 20px 0;
+        margin: 0 7px 0 7px;
+        
+        p {
+            padding: 1em 0 1em 0;
+        }
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+}
