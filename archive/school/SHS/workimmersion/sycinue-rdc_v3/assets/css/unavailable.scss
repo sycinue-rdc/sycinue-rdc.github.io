@@ -1,0 +1,183 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    margin-top: 3.5em;
+
+
+    .container {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+
+        h1 {
+            margin-bottom: .5em;
+            font-family: yumincho;
+        }
+    }
+}
+
+.hero {
+    margin-top: 2em;
+    margin-bottom: 5em;
+
+    .container {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+
+            li {
+                margin-left: 1em;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    line-height: 2em;
+                    transition: color 1s ease;
+                    // font-weight: 500;
+                    color: black;
+                    font-family: hack;
+
+                    img {
+                        float: left;
+                    }
+                }
+
+                a:hover {
+                    color: rgba(0, 0, 0, 0.4);
+                }
+
+                a.unavailable {
+                    text-decoration: line-through;
+                    color: red;
+                    transition: color 1s, text-decoration 2s ease-in-out;
+                }
+
+                a.unavailable:hover {
+                    text-decoration: none;
+                    color: rgba(255, 0, 0, 0.4);
+                }
+
+                a.file {
+                    color: rgb(0, 119, 255);
+                    transition: color 1s, text-decoration 2s ease-in-out;
+                }
+
+                a.file:hover {
+                    text-decoration: none;
+                    color: rgba(0, 119, 255, 0.4);
+                }
+            }
+        }
+
+        .back {
+            margin-top: 5em;
+        }
+
+        .download {
+            margin-top: 5em;
+            margin-bottom: -3em;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.100);
+    z-index: -100;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#particles {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    pointer-events: none;
+}
+
+// Icons Configuration Section
+.ico, .ico-folder, .ico-download, .ico-root {
+    height: 30px;
+    width: 32px;
+    margin-right: .5em;
+}
+
+.ico-back {
+    height: 25px;
+    width: 27px;
+    margin-right: .5em;
+}
+
+a:hover .ico-folder {
+    content: url('../img/folder-open.png');
+}
+
+a:hover .ico-download {
+    content: url('../img/download-2.png');
+}
+
+a:hover .ico-root {
+    content: url('../img/root-open.png');
+}
+
+// Fonts
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css');
+
+@font-face {
+    font-family: code;
+    src: url('../fonts/CODE\ Light.otf');
+}
+
+@font-face {
+    font-family: yumincho;
+    src: url('../fonts/yumin.ttf');
+}
+
+// Page-Unavailable Config
+
+.invalid {
+    h1, li {
+        text-align: center;
+    }
+
+    li {
+        color: rgb(161, 4, 4);
+        font-size: 1em;
+        font-family: Hack;
+    }
+
+    .back {
+        
+        li {
+            text-align: left;
+
+            img {
+                height: auto;
+                margin-right: .5em;
+            }
+        }
+        
+    }
+
+    img {
+        display: block;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        pointer-events: none;
+    }
+}

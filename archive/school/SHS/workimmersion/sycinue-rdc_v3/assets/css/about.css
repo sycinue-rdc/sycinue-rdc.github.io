@@ -1,0 +1,84 @@
+@font-face {
+  font-family: code-b;
+  src: url("../fonts/CODE Bold.otf");
+}
+@font-face {
+  font-family: yumincho;
+  src: url("../fonts/yumin.ttf");
+}
+*::-webkit-backdrop {
+  scroll-behavior: smooth;
+}
+*, *::backdrop, *::after {
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #202124;
+  color: white;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: baseline;
+  flex-wrap: nowrap;
+  padding: 50px;
+}
+.hero .container section img {
+  height: 300px;
+  width: 300px;
+  border: 1em solid;
+  border-color: rgba(134, 134, 134, 0.267);
+  border-radius: 50%;
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 50px;
+}
+.hero .container section h2 {
+  text-transform: capitalize;
+  font-family: code-b;
+  letter-spacing: 7px;
+}
+.hero .container section p {
+  font-family: yumincho;
+}
+.hero .container section p b {
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero .container section a {
+  text-decoration: none;
+  color: rgb(161, 216, 238);
+  transition: all 1s ease;
+}
+.hero .container section a:hover {
+  color: aqua;
+}
+
+#particles {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -9999;
+  pointer-events: none;
+  padding: -50px;
+}
+
+@media only screen and (max-width: 790px) {
+  .hero .container {
+    flex-wrap: wrap;
+  }
+  .hero .container section img {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .hero .container section h2 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,102 @@
+// Fonts
+@font-face {
+    font-family: code-b;
+    src: url('../fonts/CODE\ Bold.otf');
+}
+
+@font-face {
+    font-family: yumincho;
+    src: url('../fonts/yumin.ttf');
+}
+
+*, *::backdrop, *::after {
+    scroll-behavior: smooth;
+}
+
+*,*::before,*::after {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:  #202124;
+    color: white;
+}
+
+.hero {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-items: baseline;
+        flex-wrap: nowrap;
+        padding: 50px;
+        
+        section {
+
+            img {
+                height: 300px;
+                width: 300px;
+                border: 1em solid;
+                border-color: rgba(134, 134, 134, 0.267);
+                border-radius: 50%;
+                pointer-events: none;
+                object-fit: cover;
+                margin-right: 50px;
+            }
+            h2 {
+                text-transform: capitalize;
+                font-family: code-b;
+                letter-spacing: 7px;
+            }
+
+            p {
+                font-family: yumincho;
+                
+                b {
+                    color: rgba(255, 255, 255, 0.700);
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(161, 216, 238);
+                transition: all 1s ease;
+            }
+
+            a:hover {
+                color: aqua;
+            }
+        }
+    }
+}
+
+#particles {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -9999;
+    pointer-events: none;
+    padding: -50px;
+
+}
+
+@media only screen and (max-width: 790px) {
+    .hero {
+        .container {
+            flex-wrap: wrap;
+
+            section {
+
+                img {
+                    margin-right: 0;
+                    margin-bottom: 50px;
+                }
+
+                h2 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

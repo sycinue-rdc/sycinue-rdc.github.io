@@ -1,0 +1,152 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  margin-top: 3.5em;
+}
+header .container {
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+}
+header .container h1 {
+  margin-bottom: 0.5em;
+  font-family: yumincho;
+}
+
+.hero {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.hero .container {
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+}
+.hero .container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.hero .container ul li {
+  margin-left: 1em;
+}
+.hero .container ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2em;
+  transition: color 1s ease;
+  color: black;
+  font-family: hack;
+}
+.hero .container ul li a img {
+  float: left;
+}
+.hero .container ul li a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+.hero .container ul li a.unavailable {
+  text-decoration: line-through;
+  color: red;
+  transition: color 1s, -webkit-text-decoration 2s ease-in-out;
+  transition: color 1s, text-decoration 2s ease-in-out;
+  transition: color 1s, text-decoration 2s ease-in-out, -webkit-text-decoration 2s ease-in-out;
+}
+.hero .container ul li a.unavailable:hover {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.4);
+}
+.hero .container ul li a.file {
+  color: rgb(0, 119, 255);
+  transition: color 1s, -webkit-text-decoration 2s ease-in-out;
+  transition: color 1s, text-decoration 2s ease-in-out;
+  transition: color 1s, text-decoration 2s ease-in-out, -webkit-text-decoration 2s ease-in-out;
+}
+.hero .container ul li a.file:hover {
+  text-decoration: none;
+  color: rgba(0, 119, 255, 0.4);
+}
+.hero .container .back {
+  margin-top: 5em;
+}
+.hero .container .download {
+  margin-top: 5em;
+  margin-bottom: -3em;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#particles {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9;
+  pointer-events: none;
+}
+
+.ico, .ico-folder, .ico-download, .ico-root {
+  height: 30px;
+  width: 32px;
+  margin-right: 0.5em;
+}
+
+.ico-back {
+  height: 25px;
+  width: 27px;
+  margin-right: 0.5em;
+}
+
+a:hover .ico-folder {
+  content: url("../img/folder-open.png");
+}
+
+a:hover .ico-download {
+  content: url("../img/download-2.png");
+}
+
+a:hover .ico-root {
+  content: url("../img/root-open.png");
+}
+
+@font-face {
+  font-family: code;
+  src: url("../fonts/CODE Light.otf");
+}
+@font-face {
+  font-family: yumincho;
+  src: url("../fonts/yumin.ttf");
+}
+.invalid h1, .invalid li {
+  text-align: center;
+}
+.invalid li {
+  color: rgb(161, 4, 4);
+  font-size: 1em;
+  font-family: Hack;
+}
+.invalid .back li {
+  text-align: left;
+}
+.invalid .back li img {
+  height: auto;
+  margin-right: 0.5em;
+}
+.invalid img {
+  display: block;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  pointer-events: none;
+}/*# sourceMappingURL=unavailable.css.map */

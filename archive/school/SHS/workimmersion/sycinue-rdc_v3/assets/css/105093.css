@@ -1,0 +1,78 @@
+@font-face {
+  font-family: yumincho;
+  src: url("../fonts/yumin.ttf");
+}
+@font-face {
+  font-family: code-b;
+  src: url("../fonts/CODE Bold.otf");
+}
+@font-face {
+  font-family: code-l;
+  src: url("../fonts/CODE Light.otf");
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #202124;
+  color: white;
+}
+body h1 {
+  margin: 20px 0;
+}
+
+.hero .container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: yumincho;
+  letter-spacing: 2px;
+}
+.hero .container .sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero .container .sections div {
+  margin: 20px 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.hero .container .sections div h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: code-b;
+  letter-spacing: 2px;
+}
+.hero .container .sections div a {
+  color: white;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+.hero .container .sections div a:hover {
+  color: gold;
+}
+.hero .container .sections div p {
+  margin: 16px 0;
+  font-family: code-l;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.hero .container .sections div img {
+  height: 300px;
+  width: 300px;
+  background: rgba(32, 33, 36, 0.5568627451);
+  border-radius: 10px;
+}
+
+#particles {
+  position: fixed;
+  z-index: -9999;
+  pointer-events: none;
+  height: 100vh;
+  width: 100vw;
+}/*# sourceMappingURL=105093.css.map */

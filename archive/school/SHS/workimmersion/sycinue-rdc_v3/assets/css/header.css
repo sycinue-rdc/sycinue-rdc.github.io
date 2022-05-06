@@ -1,0 +1,66 @@
+@font-face {
+  font-family: yumincho;
+  src: url("../fonts/yumin.ttf");
+}
+@font-face {
+  font-family: amsterdam;
+  src: url("../fonts/Amsterdam 400.ttf");
+}
+@font-face {
+  font-family: code-l;
+  src: url("../fonts/CODE Light.otf");
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body ul {
+  margin: 16px 0;
+}
+
+header {
+  background-color: black;
+}
+header nav {
+  padding: 10px 40px;
+}
+
+nav, .logo, ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+.logo a {
+  color: white;
+  font-size: 18px;
+  font-family: amsterdam;
+}
+.logo img {
+  height: 50px;
+  float: right;
+  margin-left: 5px;
+  filter: brightness(100);
+}
+
+ul {
+  list-style-type: none;
+}
+ul a {
+  margin: 0 10px;
+  font-family: yumincho;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  transition: color 1s ease;
+}
+ul a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=header.css.map */
