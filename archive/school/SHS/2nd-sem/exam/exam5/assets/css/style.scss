@@ -1,0 +1,102 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #808080;
+}
+
+.signup {
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .container {
+        padding: 50px 100px;
+        h2 {
+            background: #ffa500;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            margin: 22px 0;
+            width: 250px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .form {
+            input{
+                margin: 5px 0 5px 0;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+            }
+        }
+
+        .bday {
+            margin-top: 22px;
+            font-size: 18px;
+            select {
+                margin: 5px 0 5px 0;
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+            }
+        }
+
+        .gender {
+            margin: 10px 0;
+            label {
+                margin: 0 10px;
+            }
+
+            input[type='radio']:after {
+                width: 9px;
+                height: 9px;
+                border-radius: 15px;
+                position: relative;
+                background-color: #d1d3d1;
+                content: '';
+                display: inline-block;
+                visibility: visible;
+                border: 2px solid white;
+            }
+        
+            input[type='radio']:checked:after {
+                width: 9px;
+                height: 9px;
+                border-radius: 15px;
+                position: relative;
+                background-color: #ffa500;
+                content: '';
+                display: inline-block;
+                visibility: visible;
+                border: 2px solid white;
+            }
+        }
+
+        .tc {
+            margin: 10px 0;
+        }
+
+        input[type='submit'] {
+            background: #ffa500;
+            font-weight: 600;
+            margin: 5px 0 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            width: 150px;
+            cursor: pointer;
+        }
+    }
+}
