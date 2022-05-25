@@ -16,7 +16,5 @@ body {
   z-index: -1;
   bottom: 0;
   right: 0;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-/*# sourceMappingURL=hero.css.map */
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=hero.css.map */

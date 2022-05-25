@@ -8,33 +8,26 @@
   text-align: center;
   text-transform: uppercase;
 }
-
 .hero .container table, .hero .container th, .hero .container td, .hero .container tr {
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff49;
+  background-color: rgba(255, 255, 255, 0.2862745098);
 }
-
 .hero .container .hdr {
   background-color: orange;
   text-transform: uppercase;
 }
-
 .hero .container .subj {
   text-transform: uppercase;
 }
-
 .hero .container .total {
   height: 50px;
 }
-
 .hero .container .total td {
   text-align: right;
   text-transform: uppercase;
 }
-
 .hero .container .num {
   text-align: center;
-}
-/*# sourceMappingURL=table.css.map */
+}/*# sourceMappingURL=table.css.map */

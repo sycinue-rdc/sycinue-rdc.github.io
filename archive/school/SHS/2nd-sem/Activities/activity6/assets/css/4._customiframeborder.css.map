@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,SAAS;EACjB,YAAY,EAAE,GAAG;CAEpB",
-    "sources": [
-        "4._customiframeborder.scss"
-    ],
-    "names": [],
-    "file": "4._customiframeborder.css"
-}
+{"version":3,"sources":["4._customiframeborder.scss","4._customiframeborder.css"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,eAAA;EACA,gBAAA;EACA,iBAAA;EACA,iBAAA;ACCJ","file":"4._customiframeborder.css"}

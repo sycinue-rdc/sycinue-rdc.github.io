@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACnB",
-    "sources": [
-        "5._iframetargetforlink.scss"
-    ],
-    "names": [],
-    "file": "5._iframetargetforlink.css"
-}
+{"version":3,"sources":["5._iframetargetforlink.scss","5._iframetargetforlink.css"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,eAAA;EACA,gBAAA;ACCJ","file":"5._iframetargetforlink.css"}

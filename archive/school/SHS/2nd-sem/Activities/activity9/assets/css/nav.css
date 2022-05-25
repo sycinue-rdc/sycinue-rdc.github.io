@@ -2,13 +2,12 @@
   font-family: yumincho;
   src: url("../font/yumin.ttf");
 }
-
 *, *::before, *::after {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #14151bf2;
+  background-color: rgba(20, 21, 27, 0.9490196078);
 }
 
 img {
@@ -34,20 +33,15 @@ ul {
   text-align: center;
   padding-left: 0;
 }
-
 ul li {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
-
 ul li a {
-  color: #95a2b9;
-  -webkit-transition: color 1s ease;
+  color: rgb(149, 162, 185);
   transition: color 1s ease;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 ul li a:hover {
-  color: #b6b60b;
-}
-/*# sourceMappingURL=nav.css.map */
+  color: rgb(182, 182, 11);
+}/*# sourceMappingURL=nav.css.map */
