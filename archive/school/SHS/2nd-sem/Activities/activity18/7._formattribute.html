@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The form Attribute</title>
+</head>
+<body>
+    <h2>The form Attribute</h2>
+    <p>The form attribute specifies one or more forms an input element belongs to.</p>
+
+    <form action="https://www.w3schools.com/action_page.php" id="form1">
+        First name: <input type="text" name="fname"><br>
+        <input type="submit">
+    </form>
+
+    <p>The "Last name" field below is outside the form element but still part of the form.</p>
+    Last name: <input type="text" name="lname" form="form1">
+</body>
+</html>

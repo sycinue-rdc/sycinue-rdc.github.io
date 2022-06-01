@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The formenctype Attribute</title>
+</head>
+<body>
+    <h2>The formenctype Attribute</h2>
+    <p>The formenctype attribute specifies how the form data should be encoded when submitted (only for forms with method="post").</p>
+
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        First name: <input type="text" name="fname"><br>
+        <input type="submit">
+        <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+    </form>
+
+    <p><b>Note:</b> The formenctype attribute of the input tag is not supported in IE9 and earlier versions.</p>
+</body>
+</html>
