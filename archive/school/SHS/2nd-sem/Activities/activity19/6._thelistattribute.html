@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The list Attribute</title>
+</head>
+<body>
+    <h2>The list Attribute</h2>
+    <p>The list attribute refers tp a datalist element that contains pre-defined options for an input element.</p>
+
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <p><b>Note:</b> The datalist tag is not supported in IE9 and earlier versions, or in Safari</p>
+</body>
+</html>

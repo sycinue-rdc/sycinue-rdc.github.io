@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The min & max Attributes</title>
+</head>
+<body>
+    <h2>The min and max Attributes</h2>
+    <p>The min and max attribute specify the minimum and maximum values for an input element.</p>
+
+    <form action="https://www.w3schools.com/action_page.php">
+        Enter a date before 1980-01-01: <input type="date" name="bday" max="1979-12-31"><br>
+        Enter a data after 2000-01-01: <input type="date" name="bday" min="2000-01-02"><br>
+        Quantity (between 1 and 5): <input type="number" name="quantity" min="1" max="5"><br>
+        <input type="submit">
+    </form>
+
+    <p><b>Note:</b> The max and min attributes of the input tag is not supported in IE9 and earlier versions.</p>
+
+    <p><b>Note:</b> The max and min attributes will not work for date and time in EI10, since IE10 does not support these input types.</p>
+</body>
+</html>
