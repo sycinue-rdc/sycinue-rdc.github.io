@@ -1,0 +1,55 @@
+*,*::after,*::before {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+
+    .container {
+
+        .bg {
+            position: fixed;
+            z-index: -1;
+            display: block;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type: none;
+
+            li {
+                margin: 0 10px;
+                padding: 10px 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                width: 120px;
+
+                img {
+                    height: 150px;
+                    object-fit: contain;
+                }
+
+                a {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: larger;
+                    text-decoration: none;
+                    color: black;
+                    border-left: solid 1px black;
+                    border-right: solid 1px black;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                    color: red;
+                }
+            }
+        }
+    }
+}

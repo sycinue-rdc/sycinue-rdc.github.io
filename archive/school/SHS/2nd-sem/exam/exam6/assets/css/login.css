@@ -1,0 +1,55 @@
+*, *::after, *::before {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.login {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.login .container {
+  text-align: center;
+  padding: 50px 100px;
+}
+.login .container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 150px;
+  pointer-events: none;
+}
+.login .container input {
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+.login .container a {
+  background: black;
+  color: white;
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+  padding: 10px 60px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 2s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login .container a:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=login.css.map */
