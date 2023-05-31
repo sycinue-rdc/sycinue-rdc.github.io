@@ -1,0 +1,245 @@
+*,*::before,*::after {
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+// Fonts, Text & Colors
+@font-face {
+    font-family: x-space;
+    src: url(../fonts/XspaceRegular.ttf);
+}
+@font-face {
+    font-family: electrolize;
+    src: url(../fonts/Electrolize-Regular.ttf);
+}
+body {
+    background-color: #0d1117;
+
+    h1 {
+        text-align: center;
+        color: #46b6ff;
+        cursor: pointer;
+        transition: color ease 1s;
+        -webkit-transition: color ease 1s;
+        -moz-transition: color ease 1s;
+        -ms-transition: color ease 1s;
+        -o-transition: color ease 1s;
+        text-transform: uppercase;
+}
+
+    h1:hover {
+        color: #0044cd;
+    }
+
+    h2 {
+        color: #137ade;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    a{
+        color: #7ee787;
+        transition: color ease 1s;
+        -webkit-transition: color ease 1s;
+        -moz-transition: color ease 1s;
+        -ms-transition: color ease 1s;
+        -o-transition: color ease 1s;
+    }
+
+    a:hover {
+        color: #549a5a;
+    }
+
+    #projects p {
+        color: rgb(185, 183, 183);
+    }
+
+    span {
+        color: white;
+        cursor: pointer;
+        transition: color ease 1s;
+        -webkit-transition: color ease 1s;
+        -moz-transition: color ease 1s;
+        -ms-transition: color ease 1s;
+        -o-transition: color ease 1s;
+    }
+
+    span:hover {
+        color: #7ee787;
+    }
+}
+
+#top-bar {
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            font-family: x-space;
+            font-size: 30px;
+        }
+        img {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin: 0 5px 0 5px;
+            }
+        }
+    }
+}
+
+#hero {
+    height: calc(100vh - 55px);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+
+    .container {
+        margin-top: 30vh;
+        margin-left: 5em;
+        margin-right: 5em;
+        line-height: 2.5em;
+
+        img {
+            height: 200px;
+            width: 200px;
+            border: 1em solid;
+            border-color: rgba(134, 134, 134, 0.1);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+    }
+}
+
+#projects {
+    font-family: electrolize;
+    text-align: center;
+    background-color: rgb(189, 211, 230,0.1);
+
+    .container {
+        padding: 50px 0;
+
+        ul {
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+    
+            li {
+                background-color: rgba(255, 255, 255, 0.1);
+                margin: 10px;
+                padding: 25px 50px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                transition: background-color ease 0.5s;
+                -webkit-transition: background-color ease 0.5s;
+                -moz-transition: background-color ease 0.5s;
+                -ms-transition: background-color ease 0.5s;
+                -o-transition: background-color ease 0.5s;
+            }
+    
+            li:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+        }
+    }
+
+}
+
+#about {
+    font-family: electrolize;
+    margin: 50px 0;
+    .container {
+        padding: 0 5%;
+
+        p {
+            margin-top: 25px;
+        }
+
+    }
+}
+
+#contact {
+    font-family: electrolize;
+    background-color: rgba(0, 0, 0, 0.3);
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex: 50%;
+        justify-content: space-evenly;
+        padding: 20px 0;
+
+        ul {
+            padding: 20px 20px;
+            // background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
+    }
+}
+
+#footer {
+    font-family: electrolize;
+    text-align: center;
+    background-color: black;
+    display: block;
+    width: 100%;
+    p {
+        font-size: smaller;
+    }
+}
+
+
+@media (max-width: 720px) {
+    #top-bar {
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px 50px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                font-family: x-space;
+                font-size: 30px;
+            }
+
+            ul {
+                display: none;
+            }
+
+        }
+    }
+
+    #hero {
+        height: calc(100vh - 55px);
+    }
+}
